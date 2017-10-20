@@ -1,0 +1,27 @@
+h1 {
+    outline: 1px solid yellow;
+    text-align: center;
+}
+
+img{
+  /*  outline: 9px solid blue;  outline sirve para ver como esta diseñada en nuestro html*/ 
+   /* max-width: 100%;*/
+   max-width: 100%;
+     
+}
+
+p {
+    outline: 2px solid green;
+}
+
+.caja{  /*caja contiene a img, entonces al darle ancho a caja, img se adapta a su contenedor*/
+width: 420px;
+outline: 2px solid blue;
+padding: 10px;
+border: 1px solid #999;
+margin-left: 10px;
+box-sizing: border-box;
+float: left; /* se debe tener cuidado que el ancho del tamaño del elemento contenedor*/
+
+
+}
